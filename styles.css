@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  background: #002f6c;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  height: 40px;
+}
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #1abc9c;
+}
+
+.hero {
+  background: linear-gradient(to right, #0056a3, #0070d2);
+  text-align: center;
+  color: white;
+  padding: 80px 20px;
+}
+.slogan {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.about, .services, .why-us, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+.about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.tiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.tile {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ccc;
+}
+.tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+.tile h3 {
+  color: #0056a3;
+}
+
+.why-us ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+.why-us li {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.contact form {
+  display: inline-grid;
+  gap: 15px;
+  width: 280px;
+}
+.contact input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact button {
+  padding: 12px 20px;
+  background: #0070d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.contact button:hover {
+  background: #0056a3;
+}
+
+footer {
+  background: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
